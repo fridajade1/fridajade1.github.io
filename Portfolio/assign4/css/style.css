@@ -1,0 +1,87 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+
+body {
+	
+	
+}
+
+
+#container {
+
+  text-shadow: 2px 2px;
+  opacity: 0.5;
+    background:#b400e0;
+    
+   
+}
+
+	
+
+
+
+p {
+  font-size:4em;  
+    
+}
+
+.I{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;    
+}
+
+.I2{
+      position: absolute;
+    bottom: 100px;
+    top: 350px;   
+    
+}
+.I3{
+    position: absolute;
+    top: 200px;
+    left:800px;
+
+       
+}
+
+.footer{
+    position: absolute;
+    bottom: 30px;
+    right:250px;
+      
+}
+
+
+p.red {
+	background: red;
+}
+
+p.green {
+	background: green;
+}
+
+p.blue {
+	background: blue;
+}
+
+
+
+
+
+
+
