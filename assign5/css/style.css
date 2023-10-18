@@ -1,0 +1,38 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+    background:#52dcff url('../img/skyline.jpg')no-repeat fixed center;
+    background-size:cover;
+     
+	
+	
+}
+
+
+#container {
+    width:500px;
+    margin:auto;
+    margin-top: 200px;
+    padding:100px;
+    border: 1px blue;
+    background: url(../img/dancing.gif) fixed no-repeat center;
+	
+}
+
+
+
+
