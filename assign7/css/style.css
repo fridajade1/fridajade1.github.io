@@ -1,0 +1,35 @@
+/html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 2em;
+    line-height: 1.4em;
+    
+
+}
+#container {
+	margin:3em;
+    padding:2.0em;
+   background-color: lightpink
+}
+    /* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+    body{
+        background-color:hotpink
+    }
+    
+    #container{
+       width:725px;
+        margin:auto;
+   
+    }
+	
+	
+} /* closes 1024px+ */
+    
