@@ -1,0 +1,66 @@
+html, body{
+    margin: 0px;
+    padding:0px;
+    height:100%;
+}
+    
+html{
+/*standard text-settings below*/
+font-size: 1em;
+line-height: 1.4em;
+    
+}
+
+
+ body{
+     font-family: "Papyrus", fantasy;
+     background:#eaccff;
+     color:#6b03fc;  
+     margin:20px;
+  }
+div#container{
+    margin:auto;
+    margin-top:60px;
+    width:90%;
+    max-width: 800px;
+    border: 20px solid Purple;
+    padding:25px;    
+    }
+div#container2{
+      margin:auto;
+    margin-top:50px;
+    width:90%;
+    max-width: 800px; 
+   background-color: #ff78fa   
+}
+    
+    
+}
+
+header{
+    font-family: serif;
+    
+}
+footer{
+    font-size:0.9em;
+}
+Ul{
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+figure{
+    margin:50px;
+}
+
+figure img{
+    width:100%:];
+}
+
+figcaption, footer{
+    font-size:0.75;
+}
+</style>
+</head>
+<body>
