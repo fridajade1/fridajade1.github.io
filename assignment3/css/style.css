@@ -8,19 +8,30 @@ html, body {
 html {
 		/* Standard text-settings below */
 	font-size: 1em;
+    font-family: "monaco", monospace;
     line-height: 1.4em;
+    background-color: lightcyan;
 }
-
-
 
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
 
 body {
-	
+	margin: 35px;
+    font-family: "monaco", monospace;
 	
 }
+header,footer{
+    background: purple;
+    color:lightcyan;
+    padding:12px;
+  font-size: 14px;
+}
+nav ul{
+    list-style: none;
+    padding-left: 0px;
 
+}
 
 #container {
 	width:90%;
