@@ -1,0 +1,93 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+
+body {
+            font-family:sans-serif;
+            margin: 5px;
+         color: white;
+        }
+
+        header,footer {
+            margin: 20px;
+            padding: 20px;
+            border: 4px solid white;
+          
+        }
+
+body {
+
+  background-color: gray;
+  animation-name: colors_Change; 
+       animation-delay: 5s;
+  animation-duration: 2s;
+      animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes colors_Change{
+  50%   {background-color: deeppink;}
+  55%  {background-color: yellow;}
+55%  {background-color: plum;}
+  50%  {background-color: lightcyan;}
+  100% {background-color: green;}
+}
+
+
+    
+.fade-out {
+  animation: fadeOut ease 2s forwards;
+
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+.fade-in {
+  animation: fadeIn ease 5s forwards;
+
+ 
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+    50%{ opacity: 0}
+    
+    80%{opacity: 0.5}
+  100% {
+    opacity:1;
+  }
+
+
+
+
+
+-----------------------------------------------
+@media all and (min-width: 481px) {
+	
+	
+}  closes 481px+ 
+
+
+
+ Minimum width for laptops. 
+@media all and (min-width: 769px) {
+	
+
+}  closes 769px+ 
+
+
+
+Minimum width for desktop screens. 
+@media all and (min-width: 1024px) {
+   
+    }
+}
+	
+ closes 1024px+ 
