@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Assignment 5</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>  Sun and The Moon Poem </h1> 
+</header>
+<button id="redecorator"> Click Here and Title!</button>
+   
+  <figure>
+      <img src="img/sun.gif" alt="The Sun" width="600" height="500">
+      </figure>    
+<main>
+     <p> The sun and moon, a perfect pair,
+Beautiful opposites shining bright, so rare,
+         
+   <p>The sun with its fiery, brilliant glow,
+The moon with its ethereal, gentle flow.
+       One rises in the east, the other in the west,   </p>
+<p>Two celestial beings in a cosmic duet,
+The sun's warmth embraces the earth below,
+    
+<p>While the moon's light shimmers with a mystical glow. The sun burns with an intense fervor,</p>
+         
+<p class="hidden">
+While the moon's soft light soothes and purrs,
+One blazes with energy, the other serene, 
+<p class="hidden">Together they paint a picture, a cosmic scene. The sun and moon, a yin and yang,
+<p class="hidden">Two sides of the same celestial gang,
+Opposites that balance each other,Keeping the cosmos in perfect order.So let us marvel at their contrast and harmony,
+<p class="hidden">As the sun sinks low and the moon rises calmly, Admiring the beauty in their duality,
+    The perfect balance of this celestial reality.</p>
+   
+</main>
+
+
+  </div><!-- close "container" -->
+ <footer>
+       <p> <strong>&#169;Frida Dominguez 2024</strong> </p>
+    </footer>
+  <!-- Link to jQuery on Google CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <!-- Write your jQuery code inside of the .ready() function below -->
+  <script>
+$(document).ready(function() {
+
+   $('p.hidden').hide();
+    
+    
+    
+    $('h1').click(function() {
+    $('p.hidden').slideToggle(3000);
+     });//close.click()
+
+    $('button#redecorator').click(function(){
+      //$('body').css('background','blue');
+        $('body').addClass('moon');
+        
+    });// close redecorator
+    
+}); //close .ready()
+ 
+</script>
+
+</body>
+	
+</html> 
